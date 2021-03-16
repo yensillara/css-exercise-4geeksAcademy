@@ -1,5 +1,20 @@
 /** Insert your code here **/
 
+ul li {
+	color: red !important;
+}
+
+ol li:nth-of-type(2) {
+	/** nth-of-type es un pseudo selector que ayuda a escoger un elemeto entre hermanos **/
+	background-color: green;
+	color: black;
+}
+
+tr:nth-child(2n + 1) {
+	/** nth-child escoge al hijo, 2n+1 escoge el elemento impar **/
+	background-color: yellowgreen;
+}
+
 /*********** READ ONLY BLOCK ******
 You CAN NOT UPDATE anything from here on,
 only add lines of code on top of this lines

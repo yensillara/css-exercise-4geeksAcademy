@@ -1,9 +1,10 @@
-ul li{
-	background: blue;
+ul li {
+    background: blue !important;
+    /* !importan anula propiedades de un selector especìfico (en este caso
+    el de id= #thirditem cuyo background es amarillo y ahora es azul */
 }
 
-#thirditem{
+#thirditem {
 	background: yellow;
-} 
+}
 /****** DON NOT EDIT ANYTHING ABOVE THIS LINE ****/
-  
