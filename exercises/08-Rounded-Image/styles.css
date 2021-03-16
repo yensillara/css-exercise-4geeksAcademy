@@ -2,6 +2,6 @@ body {
 	background: #bdbdbd;
 }
 .rounded {
+	object-fit: cover;
 	border-radius: 100%;
-	object-fit: contain;
 }
